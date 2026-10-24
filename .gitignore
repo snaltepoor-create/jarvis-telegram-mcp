@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local credentials and Telegram account sessions
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+config.json
+
+# Local state and generated media
+*.db
+*.db-journal
+downloads/

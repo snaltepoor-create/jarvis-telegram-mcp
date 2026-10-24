@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jarvis-telegram-mcp",
+  "version": "0.1.0",
+  "description": "Local Telegram MCP server for AI assistants, powered by Telethon.",
+  "license": "MIT",
+  "keywords": ["telegram", "telethon", "codex", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Jarvis Telegram MCP",
+        "shortDescription": "Telegram tools for MCP-compatible AI",
+        "longDescription": "Local Telegram MCP server for compatible AI hosts: dialogs, message history, sending, reactions, and archiving with Telethon.",
+        "category": "Communication",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "defaultPrompt": [
+          "List my Telegram dialogs",
+          "Read recent messages from a Telegram chat"
+        ]
+      }
+    }
+  }
+}

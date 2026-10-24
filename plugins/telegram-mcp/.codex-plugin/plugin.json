@@ -1,0 +1,19 @@
+{
+  "name": "jarvis-telegram-mcp",
+  "version": "0.1.0",
+  "description": "Local Telegram MCP server for AI assistants, powered by Telethon.",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Jarvis Telegram MCP",
+    "shortDescription": "Telegram: чаты и сообщения",
+    "longDescription": "Локальный MCP-плагин Codex для просмотра диалогов Telegram, чтения истории, отправки сообщений и реакций, а также архивации чатов через личную сессию Telethon.",
+    "category": "Communication",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Покажи список моих Telegram-диалогов",
+      "Прочитай последние сообщения в Telegram-чате"
+    ]
+  }
+}
